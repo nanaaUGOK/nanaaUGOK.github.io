@@ -1,0 +1,105 @@
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Zen Kaku Gothic New', sans-serif;/*全文のフォント*/
+}
+
+
+.click a:link {
+  color: darkseagreen;
+}
+
+.click a:visited {
+  color: lightcoral;
+}
+
+.click a:hover {
+  color: lightseagreen;
+}
+
+h1 {
+
+  background-color:cadetblue;
+  border-radius: 50px;
+  border: double 10px cadetblue;
+
+  margin: 40px 30px;
+  margin-top: 100px;
+  padding: 30px;
+  padding-left: 80px;
+  font-family: 'Kaisei Opti', serif;/*見出しのフォント*/
+  color: bisque;
+  background-color: cadetblue;
+  }
+
+nav{
+  background-color: linen;
+  padding: 15px;
+  padding-top: 60px;
+}
+
+nav li {
+  display: inline;
+  margin: 10% 5%;
+}
+
+nav ul {
+  text-align: right;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+.container img{
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+
+.container p{
+  font-family: 'Kaisei Opti', serif;/*見出しのフォント*/
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin:0;
+  font-size: 40px;
+  color: black;
+}
+
+main img{
+  width: 40%;
+  padding-left: 80px;
+}/*顔（仮）の写真*/
+
+.detail{
+  display: flex;
+  align-items: flex-start;
+  vertical-align: middle;
+}
+
+.detail p{
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
+  min-width: 40%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: large;
+}/*説明*/
+
+footer{
+  background-color: lightblue;
+  text-align: center;
+  clear: both;
+  border-top:solid 1px;
+  padding: 30px;
+}
+
+main p{
+  padding-bottom: 80px;
+}
